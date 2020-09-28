@@ -4,12 +4,17 @@ Download all avaliable MP3 files from one podcast channel.
 ----
 ## How
 In the page source code, you can find useful information in HTML tags, like podcast name, podcast type etc.
+
 You can also find direct links to all the mp3 files of this channel.
+
 Those links are stored in a `<script>` tag that has id equals to `shoebox-ember-data-store`.
+
 If you are viewing the source code in your browser, this line is very close to the end, starting with `<script type="fastboot/shoebox"...... `
 
 Thus, we can use python extract channel name, type(used later as file name), and all mp3 links from the page source.
+
 Retrieve all the mp3 links, save them to local.
+
 
 ---
 ## How to
@@ -22,5 +27,6 @@ Retrieve all the mp3 links, save them to local.
    Change the directory to the place you want to save these mp3 files.
 4. If you want to download several files at the same time, change the number in `pool = ThreadPool(5)` will let you parallel given number of tasks. 
 5. Run from the beginning.
+
 
 ## If you do not want to use iPython, copy all code into your local .py file and run.

@@ -1,5 +1,6 @@
-# Apple_Podcast_Downloader
+# Apple_Podcast_Downloader 苹果播客下载器
 Download all avaliable MP3 files from one podcast channel.
+下载某一播客频道的所有的可下载mp3文件
 
 ----
 ## How

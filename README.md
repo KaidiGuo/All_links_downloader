@@ -1,9 +1,11 @@
 # Download all files from one web page
-## click_all_mp3_dowload_links_from_one_page 
+
+## click_all_mp3_dowload_links_from_one_page.ipynb 
 Simple code for download all files(links) from a given page.
+
 下载页面内所有的可点击文件(点击链接就开始下载)。
 
-----
+
 ## How
 Basically just using bs4 to extract all hrefs, constract the retrieve links, use urllib request function to get all the files using the links. 
 - Give the URL to the variable 'archive_url'.
@@ -11,16 +13,18 @@ Basically just using bs4 to extract all hrefs, constract the retrieve links, use
 - A subfolder 'mp3' will be created at the current location and all downloaded files will be saved in it.
 
   Note:
-  Only works on FTP like pages.
-  i.e: The file retrieve link format looks like 'https://some-root-path/sub-path1/sub-path2/filename.zip'
+  **Only works on FTP like pages.**
+  
+  i.e: The file retrieve link format looks like *https://some-root-path/sub-path1/sub-path2/filename.zip*
 
-
-
-## Apple_Podcast_Downloader 苹果播客下载器
-Download all avaliable MP3 files from one podcast channel.
-下载某一播客频道的所有的可下载mp3文件
 
 ----
+
+## Apple_Podcast_Downloader.ipynb 苹果播客下载器
+Download all avaliable MP3 files from one podcast channel.
+
+下载某一播客频道的所有的可下载mp3文件
+
 ## How
 In the page source code, you can find useful information in HTML tags, like podcast name, podcast type etc.
 

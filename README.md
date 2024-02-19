@@ -1,4 +1,5 @@
 # Download all files from one web page
+批量下载浏览器网页中的全部链接
 
 ## click_all_mp3_dowload_links_from_one_page.ipynb 
 Simple code for download all files(links) from a given page.
@@ -17,6 +18,7 @@ Basically just using bs4 to extract all hrefs, constract the retrieve links, use
   
   i.e: The file retrieve link format looks like *https://some-root-path/sub-path1/sub-path2/filename.zip*
 
+Example: https://www2.census.gov/geo/tiger/TIGER2021/BG/
 
 ----
 

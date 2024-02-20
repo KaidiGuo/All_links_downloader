@@ -15,10 +15,10 @@ Basically just using bs4 to extract all hrefs, constract the retrieve links, use
 - Specify the file type you want to download to `file_extension=".mp4"`, I only want to download mp4 files here.
 - A subfolder `download` will be created at the current location and all downloaded files will be saved in it with the original folder structure.
 
-  Note:
-  **Only works on FTP like pages.**
+Note:
+**Only works on FTP like pages.**
   
-  i.e: The file retrieve link format looks like *https://some-root-path/sub-path1/sub-path2/filename.zip*
+i.e: The file retrieve link format looks like *https://some-root-path/sub-path1/sub-path2/filename.zip*
 
 Example: https://www2.census.gov/geo/tiger/TIGER2021/BG/
 

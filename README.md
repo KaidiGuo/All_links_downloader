@@ -9,6 +9,8 @@ Simple code for download all files(links) from a given page.
 
 ## How
 Basically just using bs4 to extract all hrefs, constract the retrieve links, use urllib request function to get all the files using the links. 
+
+## How to
 - Give the URL to the variable `archive_url`.
 - Specify the file type you want to download to `file_extension=".mp4"`, I only want to download mp4 files here.
 - A subfolder `download` will be created at the current location and all downloaded files will be saved in it with the original folder structure.
@@ -41,7 +43,6 @@ Thus, we can use python extract channel name, type(used later as file name), and
 Retrieve all the mp3 links, save them to local.
 
 
----
 ## How to
 1. Go to the Apple podcast page https://podcasts.apple.com/us/genre/podcasts/id26
    If you want to reset the language, change the second regin code.

@@ -10,8 +10,8 @@ Simple code for download all files(links) from a given page.
 ## How
 Basically just using bs4 to extract all hrefs, constract the retrieve links, use urllib request function to get all the files using the links. 
 - Give the URL to the variable 'archive_url'.
-- Specify the file extension in 'if str(a['href']).endswith(".mp3")', I only want to download mp3 files here.
-- A subfolder 'mp3' will be created at the current location and all downloaded files will be saved in it.
+- Specify the file type you want to download:'file_extension=".mp4"', I only want to download mp4 files here.
+- A subfolder 'download' will be created at the current location and all downloaded files will be saved in it with the original folder structure.
 
   Note:
   **Only works on FTP like pages.**
